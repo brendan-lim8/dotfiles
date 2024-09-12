@@ -1,0 +1,255 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: JetBrainsMonoNerdFontMono, otf-font-awesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 0px;
+    border: none;
+}
+
+window#waybar {
+    background-color: rgba(30, 30, 46, 0);
+    border: 0px solid rgb(217, 118, 107); 
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: .5;
+}
+
+/*
+window#waybar.empty {
+    background-color: transparent;
+}
+window#waybar.solo {
+    background-color: #FFFFFF;
+}
+*/
+
+window#waybar.termite {
+    background-color: #3F3F3F;
+}
+
+window#waybar.chromium {
+    background-color: #000000;
+    border: none;
+}
+
+button {
+    /* Use box-shadow instead of border so the text isn't offset */
+    box-shadow: inset 0 -3px transparent;
+    /* Avoid rounded borders under each button name */
+    border: none;
+    border-radius: 0;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+    background: inherit;
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+#workspaces button {
+    color: #ffffff;
+    }
+
+#workspaces button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.active {
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -1px #ffffff;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#mode {
+    background-color: #64727D;
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#tray,
+#mode,
+#scratchpad,
+#mpd
+{
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+#window,
+#workspaces {
+    color: #ffffff;
+    background-color: rgba(30, 30, 46, .6);
+    border: 2px solid rgb(151, 82, 96);
+    border-radius: 9;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left {
+    margin-left: 5px;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right {
+    margin-right: 5px;
+    background-color: rgba(30, 30, 46, .6); 
+    border: 2px solid rgb(151, 82, 96);
+    border-radius: 9;
+}
+
+#clock {
+    background-color: transparent;
+}
+
+#battery {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#battery.charging, #battery.plugged {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+    background-color: transparent;
+    color: #ffffff;
+   
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+#cpu {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#memory {
+    background-color: transparent;
+}
+
+#disk {
+    background-color: #964B00;
+}
+
+#backlight {
+    background-color: transparent;
+}
+
+#network {
+    background-color: transparent;
+    font-size: 25px;
+}
+
+#network.disconnected {
+    background-color: transparent;
+    font-size: 25px;
+}
+
+#pulseaudio {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#pulseaudio.muted {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#temperature {
+    background-color: #f0932b;
+}
+
+#temperature.critical {
+    background-color: #eb4d4b;
+}
+
+#tray {
+    background-color: transparent;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: transparent;
+}
+
+#language {
+    background: #00b093;
+    color: #740864;
+    padding: 0 5px;
+    margin: 0 5px;
+    min-width: 16px;
+}
+
+#keyboard-state {
+    background: #97e1ad;
+    color: #000000;
+    padding: 0 0px;
+    margin: 0 5px;
+    min-width: 16px;
+}
+
+#keyboard-state > label {
+    padding: 0 5px;
+}
+
+#keyboard-state > label.locked {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#scratchpad {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#scratchpad.empty {
+	background-color: transparent;
+}
+
+#privacy {
+    padding: 0;
+}
+
+#privacy-item {
+    padding: 0 5px;
+    color: white;
+}
+
+#privacy-item.screenshare {
+    background-color: #cf5700;
+}
+
+#privacy-item.audio-in {
+    background-color: #1ca000;
+}
+
+#privacy-item.audio-out {
+    background-color: #0069d4;
+}
