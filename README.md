@@ -2,12 +2,12 @@
 
 <img src="rice.png">
 
-<div>OS: Arch Linux<div>
-<div>WM: Hyprland</div>
-<div>Menu: Rofi</div>
-<div>Editor: Nvim</div>
-<div>Terminal: Kitty</div>
-<div>Status Bar: Waybar</div>
+<p>OS: Arch Linux</p>
+<p>WM: Hyprland</p>
+<p>Menu: Rofi</p>
+<p>Editor: Nvim</p>
+<p>Terminal: Kitty</p>
+<p>Status Bar: Waybar</p>
 
   
 
