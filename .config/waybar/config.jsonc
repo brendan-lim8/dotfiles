@@ -13,7 +13,6 @@
     "modules-right": [
         "tray",
         "backlight",
-        "memory",
         "network",
         "wireplumber",
         "battery"
@@ -58,8 +57,8 @@
     },
     "clock": {
         "tooltip-format": "{calendar}",
-        "format-alt": "  {:%a, %d %b %Y}",
-        "format": "  {:%I:%M %p}"
+        "format-alt": "[  {:%a, %d %b %Y}  ]",
+        "format": "[  {:%I:%M %p | %d/%m/%Y}  ]"
     },
     "network": {
         "format-wifi" : "{icon}",
@@ -119,7 +118,7 @@
                 "󰁹"
             ]
         },
-        "format-full": "Charged ",
+        "format-full": "100% 󰁹",
         "interval": 5,
         "states": {
             "warning": 20,
