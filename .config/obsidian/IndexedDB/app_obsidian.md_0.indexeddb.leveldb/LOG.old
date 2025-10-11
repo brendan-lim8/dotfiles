@@ -1,0 +1,12 @@
+2025/10/08-20:43:11.975 1c70c Reusing MANIFEST /home/brendan/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/08-20:43:11.975 1c70c Recovering log #58
+2025/10/08-20:43:12.027 1c70c Reusing old log /home/brendan/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000058.log 
+2025/10/08-21:01:57.544 1c70d Level-0 table #63: started
+2025/10/08-21:01:57.582 1c70d Level-0 table #63: 1255370 bytes OK
+2025/10/08-21:01:57.584 1c70d Delete type=0 #58
+2025/10/08-21:03:32.198 1c70d Compacting 1@1 + 1@2 files
+2025/10/08-21:03:32.231 1c70d Generated table #64@1: 2011 keys, 189108 bytes
+2025/10/08-21:03:32.231 1c70d Compacted 1@1 + 1@2 files => 189108 bytes
+2025/10/08-21:03:32.232 1c70d compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/08-21:03:32.232 1c70d Delete type=2 #60
+2025/10/08-21:03:32.232 1c70d Delete type=2 #63

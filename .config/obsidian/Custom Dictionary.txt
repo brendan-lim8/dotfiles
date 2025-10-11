@@ -1,0 +1,19 @@
+Bijective
+Codmain
+Codomain
+Combinatorically
+Dystopianism
+Frievald's
+Inclusivity
+Injective
+Loebner
+Monotonicity
+Panopticon
+Preprocess
+Simondon's
+Surjective
+codomain
+injective
+multinomial
+surjective
+checksum_v1 = a714f8628653627b2a661db705d635f2
