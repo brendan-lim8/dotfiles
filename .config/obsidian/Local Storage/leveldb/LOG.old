@@ -1,3 +1,3 @@
-2025/10/08-20:43:11.175 1c70c Reusing MANIFEST /home/brendan/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
-2025/10/08-20:43:11.183 1c70c Recovering log #3
-2025/10/08-20:43:11.183 1c70c Reusing old log /home/brendan/.config/obsidian/Local Storage/leveldb/000003.log 
+2025/10/19-19:56:30.584 8da30 Reusing MANIFEST /home/brendan/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2025/10/19-19:56:30.604 8da30 Recovering log #3
+2025/10/19-19:56:30.605 8da30 Reusing old log /home/brendan/.config/obsidian/Local Storage/leveldb/000003.log 

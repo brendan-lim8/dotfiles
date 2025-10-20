@@ -1,4 +1,5 @@
 Bijective
+Bitwise
 Codmain
 Codomain
 Combinatorically
@@ -15,5 +16,6 @@ Surjective
 codomain
 injective
 multinomial
+nums
 surjective
-checksum_v1 = a714f8628653627b2a661db705d635f2
+checksum_v1 = cccbc67e0cbd9fd14c7e2ed36a6ed86a
